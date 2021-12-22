@@ -1,5 +1,6 @@
 package output;
 
+import classDeveloper.Customer;
 import classDeveloper.DBDeveloper;
 import classDeveloper.FileDeveloper;
 import interfaceJava.Int2;
@@ -20,7 +21,9 @@ public class PrintDeveloper {
 		classImpDB.printStatement();
 		classImpDB.hello();
 		
-
+		
+		Customer c = new Customer(); 
+		System.out.println(c.getHello());
 		
 	}
 
